@@ -1,0 +1,94 @@
+General guidline
+- Use chatGPT, Claude, Gemini, Grok or latest genAI to compare and choose best results.
+- Give context, specific info, ask 1 or 2 tasks maximum at the time to get the best answer
+- Specify clearly output requirements: what is the output format, tone... 
+
+1. chatGPT can assist in:
+- Understanding requirements
+- Clarifying requirements
+- Generating information related to software requirements
+Ex:
+Review the following requirements for testability:
+"Requirements pasted here"
+
+2. Use chatGTP / Claude to provide test plan templates, clarify test plan components, review test plan structure
+Ex: Give me the templates of the different test plans for QA
+Ex: Clarify what should be included in the following sections of the test plan:
+- Purpose
+- Scope
+- Objectives
+- Assumptions
+Ex: Attached is my test plan document. Review and improve my test plan. I want to ensure my test plan is well-structured and includes all important sections.
+
+3. Use chatGTP / Claude to provide template of status reports for different stakeholders
+Ex: Help me to summarize my testing status, progress and mention any challenges I'm currently facing by writing the status report. Ask me what information you need to do this.
+
+We are currently in the integration testing phase of our e-commerce platform.
+Our major milestones include completing API integration tests and validating the end to end flow. We have achieved 70% progress overall. One challenge we are facing is related to intermittent issues with third party API responses, causing delays in our testing timeline.
+
+4. chatGPT assist during test monitoring and control
+I'd like to analyze our test metrics. I will provide you and identify any trends or patterns. We have data on test execution times, defect density, and pass rates. Can you help me gain insights and suggest areas for improvements based on these metrics?
+
+We've been tracking our test execution times over the last three test cycles.
+Here are the average times for each cycle.
+Cycle one six hours.
+Cycle 26. seven hours.
+Cycle three.
+Almost seven hours.
+Defect density is currently at two defects per 100 test cases, and our overall pass rate is 90%.
+
+5. Assist with test design of manual test cases
+Ex: Generate the test cases for validating the login functionality of a web application that consists of three fields. Username. Email. Password. 
+
+Ex: Apply boundary and equivalence pratitioning test design techniques to write test cases of password input. Valid password must be from 3 to 15 characters; at least 1 leeter in uppercase and at least one number.
+
+6. Provide overal checklist of testing types for the whole system or web application
+Ex: Give me checklist for testing the e-commerce website that sells cosmetics
+
+7. Help to write bug report
+Ex: Provide guidance for writing a bug report, including what information to include, how to describe the issue, and how to prioritize and categorize the bug.
+Ex: Write me a bug report for the missing tab name on the www.testing101.net website based on this guidance.
+Ex: Give me the template of a bug report for the functional bug. The search on the www.testing101.net website doesn't work
+Ex: Create a document that I can copy for this bug report
+Ex: Write me a bug report for the issue replying on this draft:
+"Title: <something>
+Steps to reproduce:
+- Step 1
+- Step 2
+- Step 3"
+
+8. Help to write automation test scripts
+Ex: Give my example of Automation Script (Python with Playwright) for sign functionality of a web application
+Ex: Find the bug or error on the test script:
+<test script>
+
+9. Help in API Testing
+Ex: Generate valid and invalid test Json bodies for the username key value pair when the username is a string 150 characters long.
+{
+	"id": 0,
+	"username": "string",
+	"firstname": "string",
+	"lastname": "string",
+	"email": "string";
+}
+Ex: ask chatGPT to correct API request to fix the error
+
+10. Help to create tables or lists
+Ex: I need to create tables for testing the purchase process of our website. Can you assist me in structuring test cases and organizing them into a table?
+Ex: I'd like to categorize them into positive and negative scenarios and strength validation showing them in a list.
+
+11. Help to write SQL queries
+Ex: Show me the example of the database table with 100 users ten from Italy, ten from USA, ten from India with ages from 20 to 66. Single and married.
+Ex: Type queries to see only users from the USA with an age from 30 to 40, Single.
+Ex: I will type queries and you will reply with what the terminal would show. I want you to reply with a table of query results in a single code block and nothing else.
+<SQL query>
+
+12. Help with data generation
+Ex: Generate 10 inputs with different users for testing the registration form. The form consists of Full Name, Your Email Passowrd fields.
+Ex: Generate ten inputs with different users for testing the registration form with the fields. First Name, Last Name, Address, Apartment, Suite, etc... City, State/Province, Country, and Zip/postal code fields
+Ex: Generate 5 users from the USA, 3 from Europe, and 2 from China
+Ex: From attached picture of registration form, generate 10 inputs with different users for testing the registration form with the fields. 
+Ex: Create mock product listings, user profiles, and transaction data for testing the end to end functionality of online shopping platform
+Ex: generating patient records,medical histories, and test results to validate the functionality of a healthcare information system.
+
+
